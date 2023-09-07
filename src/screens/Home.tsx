@@ -1,5 +1,6 @@
 import { About } from "../components/About"
 import { Video } from "../components/Videos"
+import { Social } from "../components/Social"
 
 export const Home = () => {
     return (
@@ -7,6 +8,7 @@ export const Home = () => {
             <About/>
             <Video id="yHoI0n2VxMU"/>
             <Video id="OQFUoXCclrA"/>
+            <Social/>
         </div>
     )
 }
