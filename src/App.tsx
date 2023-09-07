@@ -6,7 +6,7 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className='myContainer'>
 
       <header>
         <nav>
@@ -23,6 +23,7 @@ function App() {
         <Route path='/ressources' element={ <Ressources/> }/>
         <Route path='/contact' element={ <Contact/> }/>
       </Routes>
+
     </div>
   );
 }
