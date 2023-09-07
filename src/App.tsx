@@ -8,13 +8,15 @@ function App() {
   return (
     <div>
 
-      <nav>
-        <NavLink to='/'>Accueil</NavLink>
-        <br />
-        <NavLink to='/ressources'>Ressources</NavLink>
-        <br />
-        <NavLink to='/contact'>Contact</NavLink>
-      </nav>
+      <header>
+        <nav>
+          <NavLink to='/'>Accueil</NavLink>
+          <br />
+          <NavLink to='/ressources'>Ressources</NavLink>
+          <br />
+          <NavLink to='/contact'>Contact</NavLink>
+        </nav>
+      </header>
 
       <Routes>
         <Route path='/' element={ <Home/> }/>

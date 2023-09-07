@@ -4,11 +4,11 @@ import { Social } from "../components/Social"
 
 export const Home = () => {
     return (
-        <div>
+        <main>
             <About/>
             <Video id="yHoI0n2VxMU"/>
             <Video id="OQFUoXCclrA"/>
             <Social/>
-        </div>
+        </main>
     )
 }

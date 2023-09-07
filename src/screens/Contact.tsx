@@ -1,8 +1,8 @@
 export const Contact = () => {
     return (
-        <div>
+        <main>
             <h3>Contact</h3>
             <p>Email : testReactJS@mail.fr</p>
-        </div>
+        </main>
     )
 }
