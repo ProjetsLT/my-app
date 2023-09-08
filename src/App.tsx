@@ -7,7 +7,8 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 function App() {
   return (
     <div className='h-screen flex flex-col'>
-      <header className='bg-gray-200 p-4'>
+      <header className='bg-gray-200 p-4 flex justify-between items-center'>
+        <img className='w-10 h-10' src="/images/logo.png" alt="Logo"/>
         <nav className='flex justify-center space-x-4'>
           <NavLink className='text-blue-500 hover:underline' style={({isActive}) => ({fontWeight: isActive ? 'bold' : 'normal'})} to='/'>
             Accueil
